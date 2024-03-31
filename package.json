@@ -1,12 +1,12 @@
 {
-  "homepage": "http://Asmi4.github.io/TicTacToe_React",
+  "homepage": "https://Asmi4.github.io/TicTacToe_React",
   "name": "react-essentials-deep-dive-adv",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
